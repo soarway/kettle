@@ -132,3 +132,7 @@ Please go to https://community.hitachivantara.com/community/products-and-solutio
 ### 编译后的可执行文件
 pentaho-kettle-9.2.0.0-R\assemblies\client\target\pdi-ce-9.2.0.0-290.zip
 解压后执行spoon.bat即可
+
+解决方案：配置Spoon的启动configuration，设置Working directory项为MODULE_WORKING_DIR 即kettle-ui-swt项目的目录，其下没有plugins目录自然扫描不到jar包，不会执行日志插件初始化操作。
+
+这样启动的kettle是没有插件的，如果想加载插件则需要将编译后的zip包的plugins和system目录拷贝至kettle-ui-swt根目录下
