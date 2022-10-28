@@ -24,6 +24,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.eclipse.swt</groupId>
+      <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+      <version>4.6</version>
+    </dependency>
+    <dependency>
       <groupId>pentaho-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
@@ -88,11 +93,11 @@
       <artifactId>hapi-structures-v26</artifactId>
       <version>1.1</version>
     </dependency>
-    <dependency>
-      <groupId>org.eclipse.swt</groupId>
-      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
-      <version>4.6</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.eclipse.swt</groupId>-->
+<!--      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>-->
+<!--      <version>4.6</version>-->
+<!--    </dependency>-->
   </dependencies>
 
   <build>

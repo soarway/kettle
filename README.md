@@ -128,3 +128,7 @@ public class MyTest {
 
 ### Asking for help
 Please go to https://community.hitachivantara.com/community/products-and-solutions/pentaho/ to ask questions and get help.
+
+### 编译后的可执行文件
+pentaho-kettle-9.2.0.0-R\assemblies\client\target\pdi-ce-9.2.0.0-290.zip
+解压后执行spoon.bat即可
