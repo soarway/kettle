@@ -1,4 +1,4 @@
-# Pentaho Data Integration 使用的版本号 9.2.0.0-R# 
+# Pentaho Data Integration 使用的版本号 9.2.0.0-R # 
 
 Pentaho Data Integration ( ETL ) a.k.a Kettle
 
