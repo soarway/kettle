@@ -31,15 +31,23 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.1.1</version>
         <executions>
           <execution>
-            <id>create-archive</id>
+<!--            <id>create-archive</id>-->
+            <id>make-assembly</id>
             <phase>package</phase>
             <goals>
               <goal>single</goal>
             </goals>
             <configuration>
+<!--              <archive>-->
+<!--                <manifest>-->
+<!--                  <mainClass>包名.类名</mainClass>-->
+<!--                </manifest>-->
+<!--              </archive>-->
               <descriptors>
                 <descriptor>assembly/assembly.xml</descriptor>
               </descriptors>
