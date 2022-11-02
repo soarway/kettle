@@ -1,4 +1,6 @@
-# Pentaho Data Integration # 
+# Pentaho Data Integration 使用的版本号 9.2.0.0-R # 
+使用JDK1.8进行编译
+下载jar包： https://repo1.maven.org/maven2/
 
 Pentaho Data Integration ( ETL ) a.k.a Kettle
 
