@@ -23,8 +23,8 @@
     <oss-licenses.version>9.2.0.0-290</oss-licenses.version>
 
     <!-- swt -->
-    <org.eclipse.swt.gtk.linux.x86.version>3.108.0</org.eclipse.swt.gtk.linux.x86.version>
-    <org.eclipse.swt.gtk.linux.x86_64.version>3.108.0</org.eclipse.swt.gtk.linux.x86_64.version>
+<!--    <org.eclipse.swt.gtk.linux.x86.version>3.108.0</org.eclipse.swt.gtk.linux.x86.version>-->
+<!--    <org.eclipse.swt.gtk.linux.x86_64.version>3.108.0</org.eclipse.swt.gtk.linux.x86_64.version>-->
     <org.eclipse.swt.win32.win32.x86_64.version>3.115.100</org.eclipse.swt.win32.win32.x86_64.version>
     <org.eclipse.swt.cocoa.macosx.x86_64.version>3.115.100</org.eclipse.swt.cocoa.macosx.x86_64.version>
 
@@ -40,6 +40,17 @@
       <groupId>org.eclipse.swt</groupId>
       <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
       <version>4.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.platform</groupId>
+      <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+      <version>${org.eclipse.swt.win32.win32.x86_64.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <!-- START Pentaho drivers kar file dependencies -->
     <dependency>
@@ -203,17 +214,7 @@
 <!--        </exclusion>-->
 <!--      </exclusions>-->
 <!--    </dependency>-->
-    <dependency>
-      <groupId>org.eclipse.platform</groupId>
-      <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
-      <version>${org.eclipse.swt.win32.win32.x86_64.version}</version>
-      <exclusions>
-        <exclusion>
-          <groupId>*</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+
     <dependency>
       <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
