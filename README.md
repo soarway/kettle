@@ -139,13 +139,4 @@ pentaho-kettle-9.2.0.0-R\assemblies\client\target\pdi-ce-9.2.0.0-290.zip
 
 这样启动的kettle是没有插件的，如果想加载插件则需要将编译后的zip包的plugins和system目录拷贝至kettle-ui-swt根目录下
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        2022/10/24     15:29         323600 dom4j-2.1.1.jar
--a----        2022/10/24     17:58         231882 jaxen-1.1.6.jar
--a----        2022/10/31     14:25        2476480 mysql-connector-java-8.0.28.jar
--a----        2022/02/21     18:14          32127 slf4j-api-1.7.12.jar
--a----        2022/10/31     14:19           4084 slf4j-nop-1.7.12.jar
--a----        2022/10/24     17:50        2363661 swt.jar
 
-swt.jar 是重点
